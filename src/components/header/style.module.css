@@ -1,0 +1,44 @@
+.header{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    background-color: black;
+}
+
+.header__container{
+    padding: 0 90px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+}
+
+.header__navigation{
+    display: flex;
+     gap: 40px;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+   
+}
+.header__navigation a{
+    font-size: 22px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.header__navigation a:hover{
+    color: rgba(154, 151, 157, 0.785);
+}
+
+
+.header__img {
+    width: 255px;
+    height: 40px;
+}
+
+
+.header__icons{
+    display: flex;
+    gap: 24px;
+}
